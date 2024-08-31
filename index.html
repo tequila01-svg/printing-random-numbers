@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2> javascript datatypes, let keyword and loops </h2>
+   <p id="result"></p>
+   <script>
+    var i; // i is defined
+    var text = " ";
+    {
+        let i=0; // assigning a value for i only within the block 
+        while (i<10){
+            text += "the values inside the block: " + i + "</br";
+            i++;
+        }
+        document.getElementById("result").innerHTML=text;
+    }
+   </script> 
+</body>
+</html>
